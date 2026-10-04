@@ -2,6 +2,8 @@
 
 GraduPredict is a single-student final-year project that predicts graduate placement likelihood using Logistic Regression and presents the result through a Streamlit web application.
 
+**Live application:** https://gradupredict-placement-ehsan4121.streamlit.app/
+
 ## Features
 - Student data-entry and validation
 - Placement probability, outcome, and risk category
