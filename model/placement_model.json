@@ -1,0 +1,64 @@
+{
+  "model_type": "Logistic Regression implemented with NumPy",
+  "features": [
+    "ssc_percentage",
+    "hsc_percentage",
+    "degree_percentage",
+    "employability_score",
+    "internships",
+    "projects",
+    "communication_rating",
+    "technical_rating",
+    "backlogs",
+    "work_experience",
+    "training_completed"
+  ],
+  "mean": [
+    69.55045257962011,
+    68.81569073750396,
+    68.0189613890971,
+    69.75726471965875,
+    1.4645833333333333,
+    2.6166666666666667,
+    2.975,
+    2.902083333333333,
+    1.9854166666666666,
+    0.5395833333333333,
+    0.5041666666666667
+  ],
+  "scale": [
+    11.47610146892261,
+    11.465622327649054,
+    10.934723429991825,
+    13.626359630243849,
+    1.117472889927186,
+    1.7484914132537874,
+    1.4184057952504272,
+    1.4011884216819537,
+    1.4045298120921277,
+    0.49843069701035014,
+    0.4999826385874703
+  ],
+  "weights": [
+    0.7455122587520018,
+    0.9900511561275404,
+    1.5324745055061546,
+    1.9586819443846852,
+    0.6716337877997572,
+    1.2202558473241167,
+    0.8521033171841538,
+    1.2883546565932107,
+    -1.6063083524873432,
+    0.7685423407575316,
+    1.1674981856450881
+  ],
+  "intercept": -0.7785451854481935,
+  "threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.8666666666666667,
+    "precision": 0.8947368421052632,
+    "recall": 0.8360655737704918,
+    "f1": 0.864406779661017
+  },
+  "training_source": "Included schema-compatible demonstration dataset. Retrain with the cited Kaggle dataset for academic reporting."
+}
